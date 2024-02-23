@@ -9,6 +9,8 @@ struct ContentView: View {
         TabView {
             TransitionView()
                 .tabItem { Text("Transition") }
+            CarouselView()
+                .tabItem { Text("Carousel") }
         }
     }
 }
