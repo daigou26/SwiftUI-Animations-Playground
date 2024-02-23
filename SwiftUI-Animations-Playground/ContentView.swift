@@ -13,6 +13,8 @@ struct ContentView: View {
                 .tabItem { Text("Carousel") }
             FlipView()
                 .tabItem { Text("Flip") }
+            RotationView()
+                .tabItem { Text("Rotation") }
         }
     }
 }
