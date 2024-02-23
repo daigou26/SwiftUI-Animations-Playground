@@ -11,6 +11,8 @@ struct ContentView: View {
                 .tabItem { Text("Transition") }
             CarouselView()
                 .tabItem { Text("Carousel") }
+            FlipView()
+                .tabItem { Text("Flip") }
         }
     }
 }
